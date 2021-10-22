@@ -51,6 +51,11 @@
     .home .row .content h3{
         font-size: 3.5rem;
     }
+   
+    .newsletter form{
+        margin: 0;
+        max-width: 100%;
+    }
 }
 
 
@@ -61,5 +66,8 @@
     
     .header .header-1{
         padding: 2rem;
+    }
+    .newsletter{
+        background-position: right;
     }
 }
