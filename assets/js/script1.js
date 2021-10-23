@@ -57,3 +57,57 @@
       },
     },
   });
+
+  //section reviews
+  var swiper = new Swiper(".reviews-slider", {
+    spaceBetween:10,
+    loop:true,
+    centeredSlides:true,
+    autoplay:{
+       delay:3000,
+       disableOnInteraction:false,
+   },
+   
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        
+      },
+     
+      768: {
+        slidesPerView: 2,
+      
+      },
+      1024: {
+        slidesPerView: 3,
+       
+      },
+    },
+  });
+
+  //section blogs
+  var swiper = new Swiper(".blogs-slider", {
+    spaceBetween:10,
+    loop:true,
+    centeredSlides:true,
+    autoplay:{
+       delay:3000,
+       disableOnInteraction:false,
+   },
+   
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        
+      },
+     
+      768: {
+        slidesPerView: 2,
+      
+      },
+      1024: {
+        slidesPerView: 3,
+       
+      },
+    },
+  });
