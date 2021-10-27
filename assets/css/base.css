@@ -19,7 +19,7 @@
 }
 :root{
     
-    --green:#ae2739;
+    --green:#ae2739;/*mudança de cor depois de criada a variavel com nome green*/
     --dark-color:#70042d;
     --black:#444;
     --light-color:#666;
